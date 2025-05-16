@@ -1,0 +1,67 @@
+/* Dark Theme */
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: white;
+    padding: 50px;
+}
+
+/* Container */
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+    transition: 0.3s;
+}
+
+/* Heading */
+h1 {
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+/* Assistant Image */
+.assistant-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 20px 0;
+    animation: float 3s infinite ease-in-out;
+}
+
+/* Button */
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 75, 43, 0.4);
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 15px rgba(255, 75, 43, 0.6);
+}
+
+/* Status Text Animation */
+#status-text {
+    font-size: 16px;
+    opacity: 0.8;
+    transition: 0.3s ease-in-out;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
